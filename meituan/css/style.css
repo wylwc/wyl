@@ -1,0 +1,138 @@
+* {
+  text-decoration: none; }
+
+body {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  font-size: .16rem;
+  background: #fff; }
+
+header {
+  display: flex;
+  position: fixed;
+  color: #fff;
+  height: .5rem;
+  font-size: .15rem;
+  line-height: .5rem;
+  width: 100%;
+  background: #06c1ae;
+  position: relative;
+  text-align: center; }
+  header .header_left {
+    flex: 2;
+    position: absolute;
+    left: 0.2rem; }
+  header .header_middle {
+    background: #06c1ae;
+    flex: 8; }
+    header .header_middle input {
+      border: 0;
+      width: 60%;
+      border-radius: 5px;
+      height: .3rem;
+      padding-left: .1rem;
+      line-height: .3rem; }
+  header .header_right {
+    flex: 2;
+    position: absolute;
+    right: 0.2rem;
+    color: #fff; }
+
+section {
+  width: 100%;
+  height: auto;
+  background: #ccc; }
+  section .youlike {
+    margin-top: .1rem;
+    background: #fff;
+    padding-left: .1rem; }
+    section .youlike h2 {
+      height: .45rem;
+      line-height: .45rem;
+      font-weight: normal;
+      border-bottom: 1px #ccc solid; }
+    section .youlike dl {
+      width: 100%;
+      display: flex;
+      padding-top: .1rem;
+      border-bottom: 1px #ccc solid; }
+      section .youlike dl dt img {
+        width: 1rem;
+        height: 1rem; }
+      section .youlike dl dd {
+        margin-left: .1rem;
+        position: relative; }
+        section .youlike dl dd .p_money {
+          color: #000; }
+          section .youlike dl dd .p_money b {
+            font-size: .18rem; }
+          section .youlike dl dd .p_money b, section .youlike dl dd .p_money span {
+            color: lightseagreen; }
+        section .youlike dl dd .p_tit {
+          font-size: .18rem;
+          height: .25rem;
+          line-height: .25rem; }
+        section .youlike dl dd .bought {
+          position: absolute;
+          bottom: .2rem;
+          right: .2rem; }
+  section .yueba {
+    width: 100%;
+    display: flex;
+    height: 1rem;
+    margin-top: .1rem;
+    background: #fff; }
+    section .yueba div {
+      width: 33.3%;
+      border-left: 1px #ccc solid;
+      padding-left: .2rem;
+      text-align: center; }
+      section .yueba div h4 {
+        height: .3rem;
+        /*background: red;*/
+        line-height: .3rem; }
+      section .yueba div p {
+        font-size: .12rem; }
+      section .yueba div img {
+        width: .5rem;
+        height: .48rem; }
+    section .yueba .yueba_left {
+      border: 0; }
+      section .yueba .yueba_left h4 {
+        color: lightseagreen; }
+    section .yueba .yueba_middle h4 {
+      color: deeppink; }
+    section .yueba .yueba_right h4 {
+      color: yellow; }
+  section .icons {
+    background: #fff;
+    width: 100%;
+    height: auto; }
+    section .icons .icon_top {
+      width: 100%;
+      height: auto;
+      display: flex;
+      padding-top: .1rem; }
+      section .icons .icon_top dl {
+        width: 20%;
+        height: .8rem;
+        margin-left: 2px; }
+        section .icons .icon_top dl dt {
+          font-size: .25rem;
+          width: .5rem;
+          height: .5rem;
+          margin: 0 auto;
+          line-height: .5rem;
+          text-align: center;
+          background: #3d9970;
+          border: 1px #ccc solid;
+          border-radius: 50%; }
+          section .icons .icon_top dl dt i {
+            color: #fff; }
+        section .icons .icon_top dl dd {
+          height: .3rem;
+          line-height: .3rem;
+          text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
